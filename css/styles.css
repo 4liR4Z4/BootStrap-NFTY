@@ -1,0 +1,232 @@
+/* HTML5 Tags */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Title Section Tags */
+
+#title {
+    background-color: #7858A6;
+    padding: 3% 14%;
+}
+
+.title-img {
+    width: 94%;
+}
+
+.title-h1 {
+    color: #DBDFFD;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 62px 0 62px 0;
+}
+
+.title-btn, .title-btn2 {
+    margin: 0 34px 0 0;
+}
+
+#title .title-btn:hover {
+    color: #4C3575;
+}
+
+#title .title-btn2:hover {
+    color: #4C3575;
+}
+
+nav {
+    margin-bottom: 36px;
+}
+
+nav .navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav .nav-link {
+    color: #DBDFFD;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0px 15px;
+}
+
+nav .nav-link:hover {
+    color: white;
+}
+
+/* Features Section Tags */
+
+#features {
+    background-color: #DBDFFD;
+    text-align: center;
+    padding: 6% 14%
+}
+
+.feature-icon {
+    color: #4C3575;
+    margin-bottom: 16px;
+}
+
+.feature-icon:hover {
+    color: #7858A6;
+}
+
+.feature-title {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+/* Testimonial Section Tags */
+
+#testimonials {
+    background-color: #4C3575;
+    color: #DBDFFD;
+    text-align: center;
+}
+
+.testimonial-h2 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 6% 14%;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 25px;
+    width: 8%;
+}
+
+.testimonial-carousel {
+    padding: 6% 14%;
+}
+
+/* Press Section Tags */
+
+#press {
+    background-color: #4C3575;
+    text-align: center;
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+}
+
+.press-logo {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section Tags */
+
+#pricing {
+    background-color: #DBDFFD;
+    text-align: center;
+    padding: 100px 100px 60px 100px;
+}
+
+.price-column {
+    padding: 3% 2%;
+}
+
+.row .card {
+    border: 1px solid #4C3575;
+}
+
+.card .card-header {
+    background-color: #4C3575;
+    color: #DBDFFD;
+}
+
+.card-body .card-btn {
+    border: 0.5px solid #4C3575;
+}
+
+.card-btn, .card-btns {
+    width: 100%;
+}
+
+.card-body .card-btn:hover {
+    background-color: #7858A6;
+    border: 0.5px solid #7858A6;
+}
+
+.card-body .card-btns {
+    background-color: #4C3575;
+}
+
+.card-body .card-btns:hover {
+    background-color: #7858A6;
+}
+
+/* Call To Action Section Tags */
+
+#cta {
+    background-color: #7858A6;
+    text-align: center;
+    padding: 2.5% 14%;
+}
+
+#cta h3 {
+    color: #DBDFFD;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 40px 0 25px 0;
+}
+
+.cta-btn {
+    margin: 14px;
+}
+
+#cta .cta-btn:hover {
+    color: #4C3575;
+}
+
+/* Footer Section Tags */
+
+#footer {
+    color: white;
+    background-color: #7858A6;
+    text-align: center;
+    padding: 0 14% 2.5% 14%;
+}
+
+/* Responsive Web Design for Tabley & Mobile */
+
+/* CSS3 Media Queries */
+
+@media (max-width: 900px) {
+    
+    /* Title Section Tags - For Tablets & Mobile */
+
+    .title-h1 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .title-img {
+        width: 65%;
+        padding-bottom: 15px;
+        margin:  50px 100px 0 100px;
+    }
+
+    .title-btn {
+        margin-left: 135px;
+    }
+
+    /* Testimonial Section Tags - For Tablets & Mobile */
+
+    .testimonial-h2 {
+        font-size: 1.8rem;
+    }
+
+    .testimonial-p {
+        font-size: 1.1rem;
+    }
+}
